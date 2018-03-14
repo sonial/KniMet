@@ -1,0 +1,3 @@
+The LIPID MAPS Structure Database (version updated on the 6th of December 2016) was filtered to keep only one entry for all the stereo- and diastereo-isomers belonging to the same lipid sub-class. 
+The list of isomers can be found in the file LMSDF_Isomers.tsv, where the first column contains the ID of the compound kept in the database, while the following corresponds to its isomers.
+The StructMapping and Mapping file will only contain one entry per isomer, namely the compound contained in the first column of LMSDF_Isomers.tsv.
