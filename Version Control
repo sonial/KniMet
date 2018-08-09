@@ -6,6 +6,7 @@
     - PQN modified to calculate reference spectrum as mean as opposed to median: with median spectrum from all samples, normalisation factors = 1 and data wasn't normalised;
     - "R snippet" instead of loop in Insert missing values symbol;
     - All "Transpose" nodes modified with "R snippet" (more efficient on large tables);
+    - LOESS batch correction edited to replace with zeroes the missing values it inserts.
   NEW FEATURES:
     - Feature annotation allows to select a class of lipidmaps and perform annotation only based on that;
     - Feature annotation from internal IMS DB and Feature annotation Internal2External metanodes added to annotate Ion Mobility data with an internally acquired library as well as an external one;
