@@ -1,5 +1,5 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1095042.svg)](https://doi.org/10.5281/zenodo.1041482)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1095042.svg)](https://doi.org/10.1007/s11306-018-1349-5)
+[Citation](https://link.springer.com/article/10.1007%2Fs11306-018-1349-5)
 
 
 # KniMet
