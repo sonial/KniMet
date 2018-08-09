@@ -1,3 +1,14 @@
 # EDITS
 
-12 March 2018, v 1.2.0: metanodes replaced by wrapped metanodes, added user input functionality via quickforms
+09 August 2018, v1.2.1: 
+  FIXES: 
+    - "Column list loop start" + "Math Formula" replaced by "Math formula (multi column)" in PQN and MVI - SV; 
+    - PQN modified to calculate reference spectrum as mean as opposed to median: with median spectrum from all samples, normalisation factors = 1 and data wasn't normalised;
+    - "R snippet" instead of loop in Insert missing values symbol;
+    - All "Transpose" nodes modified with "R snippet" (more efficient on large tables);
+  NEW FEATURES:
+    - Feature annotation allows to select a class of lipidmaps and perform annotation only based on that;
+    - Feature annotation from internal IMS DB and Feature annotation Internal2External metanodes added to annotate Ion Mobility data with an internally acquired library as well as an external one;
+    - QC dilution series-based Features Filtering metanode added to perform filtering of features based on their intensity in diluted QCs.
+
+12 March 2018, v1.2.0: metanodes replaced by wrapped metanodes, added user input functionality via quickforms.
