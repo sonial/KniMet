@@ -1,4 +1,6 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1095042.svg)](https://doi.org/10.5281/zenodo.1041482)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1095042.svg)](https://doi.org/10.1007/s11306-018-1349-5)
+
 
 # KniMet
 
