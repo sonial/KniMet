@@ -3,6 +3,7 @@
 15 October 2018, v1.2.2
   FIXES:
   - MVI - SV: in some cases the replacement wasn't performed with half of the minimum value but with a variable actual value, bug now fixed.
+  - Uniform column names now accepts empty selections for columns containing m/z, RT and identifiers, in case any of these columns is not present in the matrix used.
   
 09 August 2018, v1.2.1: 
   FIXES: 
