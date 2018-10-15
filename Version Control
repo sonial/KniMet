@@ -1,5 +1,9 @@
 # EDITS
 
+15 October 2018, v1.2.2
+  FIXES:
+  - MVI - SV: in some cases the replacement wasn't performed with half of the minimum value but with a variable actual value, bug now fixed.
+  
 09 August 2018, v1.2.1: 
   FIXES: 
     - "Column list loop start" + "Math Formula" replaced by "Math formula (multi column)" in PQN and MVI - SV; 
