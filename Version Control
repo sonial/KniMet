@@ -5,6 +5,7 @@
   - Uniform column names: fixed bug that caused the table at the bottom output port to report the renamed columns in the wrong order. 
   - All the Feature Annotation metanodes were modified to account for some modifications in the latest update of OpenMS.
   - Feature Annotation from internal IMS DB: fixed problem causing fatal error in the flagging step, linked to the presence of empty tables.
+  - MVI - all: to avoid columns/rows renaming by the transposition performed with R, met_ID is used as rowID
   
 15 October 2018, v1.2.2
   FIXES:
