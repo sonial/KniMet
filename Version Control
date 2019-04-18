@@ -1,5 +1,10 @@
 # EDITS
 
+18/04/2019, v1.2.4
+FIXES:
+- "Blank-Based Features Filtering" and "MVI - RF": if column (samples) names were numbers, the top output table would contain the columns and values form the input table (i.e. not transformed by the operations performed by the metanode) as well as the transformed values under columns whose name presented a "X" suffix. This was due to a R snippet node to performe transposition of the table, now replaced by a KNIJME native transpose node.
+- "LOESS Batch Correction": used to fail if column (samples) names were numbers, due to the fact that the SampleName column of the metadata file was considered numeric instead of string.
+
 20 March 2019, v1.2.3
   FIXES:
   - "Uniform column names": fixed bug that caused the table at the bottom output port to report the renamed columns in the wrong order. 
