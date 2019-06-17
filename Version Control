@@ -1,6 +1,9 @@
 # EDITS
 
-18/04/2019, v1.2.4
+17 June 2019, v1.2.5
+Edited metanode "QC dilution series-based Features Filtering" to perform filtration based on missing values and RSD in QC at maximum concentration, as wella s Pearson correlation between feature intensity and concentration coefficient.
+
+18 April 2019, v1.2.4
 FIXES:
 - "Blank-Based Features Filtering" and "MVI - RF": if column (samples) names were numbers, the top output table would contain the columns and values form the input table (i.e. not transformed by the operations performed by the metanode) as well as the transformed values under columns whose name presented a "X" suffix. This was due to a R snippet node to performe transposition of the table, now replaced by a KNIJME native transpose node.
 - "LOESS Batch Correction": used to fail if column (samples) names were numbers, due to the fact that the SampleName column of the metadata file was considered numeric instead of string.
