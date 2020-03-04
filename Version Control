@@ -1,5 +1,16 @@
 # EDITS
 
+04/03/2020, v1.2.6
+FIXES:
+- Added annotation library "LipidMaps_Annotation_NOisomers_noD": all the compounds containing Deuterium were removed to accont for the latest updates in OpenMS 2.5 where different naming convensions are used for isotopes.
+- QC-based feature filtering metanode modified to uniform column names internally on the metadata. 
+EDITS:
+- All deprecated nodes were replaced with the updated versions.
+- "Features annotation": all metanodes were edited to show the two possible polarities in a dropdown list, as opposed to having a box where the user had to manually write the polarity.
+- Latest version of R were giving issues in communicating with KNIME, this can be solved by installing Rtools before installation of the R library Rserve, as explained in the updated user guide.
+- fixed formatting of the second output of all the "Feature annotation" metanodes
+
+
 13/09/2019, v1.2.6
 FIXES:
 - Fixed bug in "Feature Annotation from internal IMS DB" that would cause fail. 
