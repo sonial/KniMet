@@ -1,8 +1,15 @@
 # EDITS
 
-04/03/2020, v1.2.6
+16/02/2020, v1.2.8
+EDITS:
+- MV - SV was optimised to run more quickly
+- Removed all deprecated nodes
+- Modified all R nodes to account for Biocunductor changes
+
+
+04/03/2020, v1.2.7
 FIXES:
-- Added annotation library "LipidMaps_Annotation_NOisomers_noD": all the compounds containing Deuterium were removed to accont for the latest updates in OpenMS 2.5 where different naming convensions are used for isotopes.
+- Added annotation library "LipidMaps_Annotation_NOisomers_noD": all the compounds containing Deuterium were removed to accont for the latest updates in OpenMS 2.5 where different naming conventions are used for isotopes.
 - QC-based feature filtering metanode modified to uniform column names internally on the metadata. 
 EDITS:
 - All deprecated nodes were replaced with the updated versions.
