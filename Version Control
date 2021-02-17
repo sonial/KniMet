@@ -1,10 +1,10 @@
-# EDITS
-
 16/02/2020, v1.2.8
 EDITS:
 - MV - SV was optimised to run more quickly
 - Removed all deprecated nodes
 - Modified all R nodes to account for Biocunductor changes
+FIXES:
+- all the Feature annotation nodes were modified to account for a bug in the latest version of the AccurateMassSearch OpenMS node. After the latest OpenMS release, the ppm threshold set by the user is multiplied by 2 in opsitive ion mode, and 3 in negative. This was fixed by inserting a row filter taking as ppm error upper limit the user defined threshold 
 
 
 04/03/2020, v1.2.7
